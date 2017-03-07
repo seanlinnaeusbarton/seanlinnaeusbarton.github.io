@@ -1,5 +1,6 @@
 ---
 layout: default
+pagename: CV - Barton Personal Site
 title: CV Page
 ---
 
