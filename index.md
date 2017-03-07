@@ -3,6 +3,6 @@ layout: default
 title: Homepage for Sean Barton
 ---
 
-<div class="blurb">
-  <p>Hello World</p>
-</div>
+# This is a test title
+
+Hello World!
