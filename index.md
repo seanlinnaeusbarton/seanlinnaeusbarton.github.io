@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Homepage for Sean Barton
+title: home
 ---
 
 Even more testing necessary
