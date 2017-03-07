@@ -1,7 +1,7 @@
 ---
 layout: default
-title: home
-pagename: test
+pagename: Home - Barton Personal Site
+title: Homepage 
 ---
-
+# {{ page.title }}
 Even more testing necessary
