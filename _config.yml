@@ -1,4 +1,6 @@
 name: Sean Barton
+title: This is the site title
+
 markdown: kramdown
 timezone: America/New_York
 future: true
