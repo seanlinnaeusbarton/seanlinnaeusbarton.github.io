@@ -2,7 +2,6 @@ name: Sean Barton
 sitename: Sean Barton - Personal Site
 title: This is the site title
 
-include: ['_RMarkdown']
 markdown: kramdown
 timezone: America/New_York
 future: true
