@@ -1,15 +1,54 @@
+html{
+  background: linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+}
+
 body {
-    margin: 60px auto;
+    margin: 0 auto;
+    max-width: 1024px;
     width: 70%;
 }
+.wrap {
+    min-height: calc(100vh - 100px);
+}
+footer {
+  height: 100px;
+}
+ul {
+  font-family:'Lucida Sans Unicode', 'Lucida Grande', 'sans-serif';
+  color: #333;
+  text-align: justify;
+  font-size: 1.em;
+}
+
+ul li {
+  font-family:'Lucida Sans Unicode', 'Lucida Grande', 'sans-serif';
+  font-size: 1.0em;
+  color: #333;
+}
+
+ul li li{
+  font-family:'Lucida Sans Unicode', 'Lucida Grande', 'sans-serif';
+  font-size: 0.85em;
+  color: #333;
+}
+
+ul li p{
+  font-family:'Lucida Sans Unicode', 'Lucida Grande', 'sans-serif';
+  font-size: 1.0em;
+  color: #333;
+}
+
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 0;
+    font-size: 1.25em;
     list-style: none;
     font-weight: bold;
 }
 nav ul li, footer ul li {
     display: inline;
+    font-size: 1.25em;
     margin-right: 20px;
 }
 a {
@@ -23,20 +62,56 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+h2 {
+  font-size: 3me;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  border-bottom: 1px solid #d5d5d5;
 }
+h3 {
+  font-size: 2.0me;
+  color: #7b818c;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'sans-serif';
+}
+p {
+    font-size: 1.25em;
+    line-height: 1.4em;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'sans-serif';
+    color: #333;
+    text-align: justify;
+}
+
+nav p{
+  font-size: 1.25em;
+  line-height: 1.4em;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'sans-serif';
+  color: #333;
+  text-align: justify;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.25em;
 }
 
 ul.posts li {
     list-style: none;
+    font-size: 1.25em;
+}
+
+.image-wrapper{
+  max-width:100%;
+  height:auto;
+  position: relative;
+  display:block;
+  margin:0 auto;
+}
+
+.image-wrapper img{
+  max-width:100%;
+  height:auto;
+  display:block;
 }

@@ -1,21 +1,23 @@
 <!DOCTYPE html>
   <html>
   {% include head.html %}
-    <body>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/cv">CV</a></li>
-          <li><a href="/blog">Blog</a></li>
-          <li><a href="/repos">Code</a></li>
-        </ul>
-      </nav>
-      <div class="container">
-        
-        {{ content }}
-        
-      </div>
-      {% include footer.html %}
-    </body>
+    <div class="wrap">
+      <body>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/cv">CV</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/repos">Code</a></li>
+          </ul>
+        </nav>
+        <div class="container">
+
+          {{ content }}
+
+        </div>
+      </body>
+    </div>
+    {% include footer.html %}
   </html>
