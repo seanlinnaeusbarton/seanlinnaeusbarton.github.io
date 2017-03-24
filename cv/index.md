@@ -123,15 +123,15 @@ title: Cirriculum Vitae
 
 ## Published Work
 ### Journal Publications
-*Submitted*
-
-* **Barton, Sean L., Jonathan S. Matthis, and Brett R. Fajen.** *“Visual Regulation of Gait: Zeroing in on a Solution to the Complex Terrain Problem.”* Journal of Experimental Psychology: Human Perception and Performance (Submitted) (2016).
-
-* **Matthis, Jonathan S., Sean L. Barton, and Brett R. Fajen.** *“The Critical Phase for Visual Control of Human Walking over Complex Terrain.”* Proceedings of the National Academy of Sciences (Submitted) (2016).
-
 *Published*
 
+* **Barton, Sean L., Jonathan S. Matthis, and Brett R. Fajen.** *“Visual Regulation of Gait: Zeroing in on a Solution to the Complex Terrain Problem.”* Journal of Experimental Psychology: Human Perception and Performance (In Press) (2017).
+
 * **Matthis, Jonathan Samir, Sean L Barton, and Brett R Fajen.** *“The Biomechanics of Walking Shape the Use of Visual Information during Locomotion over Complex Terrain.”* Journal of Vision 15, no. 3:10 (2015): 1–13. doi:10.1167/15.3.10.doi.
+
+*Submitted*
+
+* **Matthis, Jonathan S., Sean L. Barton, and Brett R. Fajen.** *“The Critical Phase for Visual Control of Human Walking over Complex Terrain.”* Proceedings of the National Academy of Sciences (Submitted) (2016).
 
 ### Conference Papers and Presentations
 *Talks*
