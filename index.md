@@ -4,7 +4,7 @@ pagename: Home | Barton
 title: Home
 ---
 
-# {{ page.title }}
+# {{ page.title }} TESTING TESTING 123
 
 {% include image.html src="figures/home/profile_picture_1.jpg" description="octocat" style="width: 300px; float: left; border: 10px; padding: 0px 30px 0px 0px;" %}
 
