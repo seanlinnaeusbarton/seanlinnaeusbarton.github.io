@@ -4,9 +4,7 @@ pagename: Home | Barton
 title: Home
 ---
 
-# {{ page.title }} TESTING TESTING 123
-
-{% include image.html src="figures/home/profile_picture_1.jpg" description="octocat" style="width: 300px; float: left; border: 10px; padding: 0px 30px 0px 0px;" %}
+{% include image.html src="figures/home/profile_picture_1.jpg" description="octocat" style="width: 300px; float:left; clear:both; padding: 10px 10px 0px 0px; " %}
 
 Hello! My name is Sean Barton and I'm a doctoral candidate at Rensselaer Polytechnic Institute in the Cognitive Science Department. My current research is focused on understanding how visual information in natural environments is used to guide and control movement through those environments. I use motion capture and virtual reality to study how people walk over natural terrains that require precise foot placement, like those you would find on a hiking trail.
 

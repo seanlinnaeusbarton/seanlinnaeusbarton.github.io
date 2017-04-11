@@ -1,23 +1,51 @@
 <!DOCTYPE html>
-  <html>
-  {% include head.html %}
-    <div class="wrap">
-      <body>
-        <nav>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/cv">CV</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/repos">Code</a></li>
-          </ul>
-        </nav>
-        <div class="container">
+<html>
 
-          {{ content }}
+{% include head.html %}
 
-        </div>
-      </body>
+<div class="header">
+  <h1>Header</h1>
+</div>
+
+<div class="main_page">
+  <div class="aside">
+
+    <div class="left_sidebar">
+
+      <div class="dark_bar">
+        <h4>Menu</h4>
+      </div>
+
+      <img src="/figures/CentralPark.jpg" style="width:100%;"/>
+
+      <a class="button" href="/">Home</a>
+      <a class="button" href="/about">About</a>
+      <a class="button" href="/cv">CV</a>
+      <a class="button" href="/blog">Blog</a>
+      <a class="button" href="/repos">Repositories</a>
+
     </div>
-    {% include footer.html %}
-  </html>
+
+    <div class="footer">
+
+      <ul>
+        <li><i class="fa fa-envelope"></i> <a href="mailto:seanlinnaeusbarton@gmail.com">Email</a></li>
+        <li><i class="fa fa-github"></i> <a href="https://github.com/seanlinnaeusbarton">Github</a></li>
+      </ul>
+
+    </div>
+  </div>
+
+  <div class="article">
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
+
+</div>
+
+<div id="preload">
+   <img src="/figures/CentralPark.jpg" style="width:100%;"/>
+</div>
+
+</html>
