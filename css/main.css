@@ -41,7 +41,7 @@ p {
 .header {
   clear:both;
   float:left;
-  width:100%;
+  width:calc(100vw);
   background:var(--slate-blue);
   height:75px;
   box-shadow: 2px 10px 10px;
@@ -52,7 +52,7 @@ p {
   position:relative;  /* This fixes the IE7 overflow hidden bug */
   clear:both;
   float:left;
-  width:100%;     /* width of whole page */
+  width:calc(100vw);     /* width of whole page */
   background:#ffb656;
   height:calc(100vh - 175px);
   min-height:500px;
@@ -156,6 +156,7 @@ p {
 
 img {
   width:75%;
+  height:auto;
 }
 
 /* --- GITHUB2 STYLING --*/

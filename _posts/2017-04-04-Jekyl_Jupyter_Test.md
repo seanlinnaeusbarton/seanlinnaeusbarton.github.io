@@ -53,8 +53,7 @@ plt.hist(iris.loc[iris["Species"]==spec[0],"Petal.Width"],20,color=colours[0])
 plt.hist(iris.loc[iris["Species"]==spec[1],"Petal.Width"],20,color=colours[1])
 ```
 
-<!--![png](/figures/Jekyl_Jupyter_Test_files/Jekyl_Jupyter_Test_5_1.png)-->
-{% include image.html src="/figures/Jekyl_Jupyter_Test_files/Jekyl_Jupyter_Test_5_1.png" description="distribution" style="width: 900px;" %}
+![png](/figures/Jekyl_Jupyter_Test_files/Jekyl_Jupyter_Test_5_1.png)
 
 
 ## Bayesian MCMC
