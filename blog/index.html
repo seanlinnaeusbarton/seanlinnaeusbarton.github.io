@@ -1,9 +1,10 @@
 ---
 layout: default
 pagename: Blog | Barton
-title: Personal Blog
+title: A Pretty Average Stats Blog
 ---
 <h1>{{ page.title }}</h1>
+<br>
 <!--
 <ul class="posts">
   {% for post in site.posts %}
@@ -11,21 +12,18 @@ title: Personal Blog
   {% endfor %}
 </ul>
 -->
-<ul class="posts">
 {% for post in site.posts %}
-<li>
-<div class="post_container" style="width:80%; height:250px; background:#fff; display:table; box-shadow: 2px 2px 10px;">
+<div class="post_container" style="width:80%; height:250px; background:#fff; display:table; box-shadow: 2px 2px 10px; margin-left:auto; margin-right:auto;">
     <div class="post_fig" style="display:table-cell; width:250px; height:auto;" >
         <a href="{{ post.url }}">
             <img src="{{post.front_fig}}" />
         </a>
     </div>
-    <div class="post_summary" style=" display:table-cell; background:#ff0000; vertical-align:middle;">
-        <h3>{{ post.title }}</h3>
-        <h5>{{ post.date | date_to_string }}</h5>
+    <div class="post_summary" style=" display:table-cell; background:#dddddd; vertical-align:middle; padding:0px 10px 0px 10px;">
+        <h3 style="border-bottom: 1px solid #647889; color:#444444;">{{ post.title }}</h3>
+        <h5 style="color:#444444;">{{ post.date | date_to_string }}</h5>
         <p>{{ post.abstract }}</p>
     </div>
 </div>
-</li>
+<br>
 {% endfor %}
-</ul>
