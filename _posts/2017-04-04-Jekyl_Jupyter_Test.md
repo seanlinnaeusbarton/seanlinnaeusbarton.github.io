@@ -4,7 +4,7 @@ title: "Jupyter Test"
 author: "Sean Barton"
 date: 2017-03-08
 front_fig: /figures/Jekyl_Jupyter_Test_files/front_image.png
-abstract: "This is a test post for uploading Jupyter output as a blog post. This will be the template for uploading posts that use Python (primarily for Bayesian work and PyMC3.)"
+abstract: "This is a test post for uploading Jupyter output as a blog post. This will be the template for uploading posts that use Python (primarily for Bayesian work and PyMC3)."
 output:
   md_document:
     variant: github_markdown
