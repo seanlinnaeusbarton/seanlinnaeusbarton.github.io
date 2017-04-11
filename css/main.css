@@ -159,7 +159,7 @@ img {
 }
 
 /* --- GITHUB2 STYLING --*/
-/*
+
 blockquote {
   border-left: 4px solid #dddddd;
   padding: 0 15px;
@@ -185,7 +185,7 @@ pre code {
   border: none;
   background: transparent;
   width:50%;}
-
+/*
 .highlight pre {
   background-color: #f8f8f8;
   border: 1px solid #cccccc;
@@ -194,6 +194,7 @@ pre code {
   overflow: auto;
   padding: 6px 10px;
   border-radius: 3px; }
+  */
 
 pre {
   background-color: #f8f8f8;
@@ -208,4 +209,4 @@ pre {
   pre code, pre tt {
     background-color: transparent;
     border: none; }
-    */
+
