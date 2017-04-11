@@ -55,13 +55,14 @@ p {
   width:100%;     /* width of whole page */
   background:#ffb656;
   height:calc(100vh - 175px);
-  min-height:400px;
+  min-height:500px;
 }
 
 .main_page .aside{
   height:calc(100vh - 75px);
   float:left;
   width:25%;
+  min-height:500px;
 }
 
 /* --- SIDEBAR STYLES ---*/
@@ -70,6 +71,7 @@ p {
   float:left;
   width:100%;
   height:calc(100vh - 125px);
+  min-height:500px;
 }
 
 .main_page .aside .left_sidebar .dark_bar {
@@ -127,6 +129,7 @@ p {
   float:right;
   width:75%;
   height:calc(100vh - 75px);
+  min-height:500px;
 }
 
 /* --- CONTENT STYLES ---*/
@@ -144,6 +147,7 @@ p {
   box-shadow: 2px 2px 10px;
   padding: 0px 10px 0px 10px;
   text-align:justify;
+
 }
 
 .main_page .article .content p{
