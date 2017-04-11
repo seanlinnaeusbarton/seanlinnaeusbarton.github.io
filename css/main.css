@@ -55,6 +55,7 @@ p {
   width:100%;     /* width of whole page */
   background:#ffb656;
   height:calc(100vh - 175px);
+  min-height:400px;
 }
 
 .main_page .aside{
