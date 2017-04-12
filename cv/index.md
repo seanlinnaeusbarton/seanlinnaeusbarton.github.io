@@ -3,20 +3,21 @@ layout: default
 pagename: CV | Barton
 title: Cirriculum Vitae
 ---
-# {{ page.title }}<sup style="font-size: 0.4em;">[1](#myfootnote1)</sup>
+<h1 style="border-bottom: 5px solid #647889;">{{ page.title }}</h1>
+<p style="font-size:0.7em;">Complete PDF version available upon request</p>
 
 ## Education
 ### Doctorate of Philosophy in Cognitive Science
 * **Rensselaer Polytechnic Institute** -- *Expected: July 2017*
-  
+
 ### Master of Science in Cognitive Science
 * **Rensselaer Polytechnic Institute** -- *December 2014*
 
   *Thesis:* Learning to coordinate a redundant motor system - The role of postural comfort
-  
+
 ### Bachelor of Science in Psychology (*Summa cum Laude, with Honors*)
 * **Arizona State University** -- *May 2011*
-  
+
   *Thesis:* Organic Cation Transporter 3 - A study of the potential behavioral role of a novel monoamine transport protein in response to acute stress
 
 
@@ -27,27 +28,27 @@ title: Cirriculum Vitae
 * **Perception and Action Lab** -- *January 2014 to Present*
 
   My current work is investigating the role of visual information during continuous walking over naturalistic terrains. The research aims to understand how information about footholds and obstacles along the future path is used by humans to leverage the dynamics of the body for efficient and stable locomotor behavior. The paradigm utilizes a full-body motion capture system and an immersive virtual environment to study total body motion in response to different information about the path being traversed.
-  
+
   * Conducted three experimental research projects under this paradigm
   * Currently leading a four person team conducting two new experiments to study the visual control of locomotion
   * Utilize motion capture and virtual reality to create naturalistic, interactive terrains as experimental stimuli
   * Developed custom Matlab and R pipelines for data analysis
   * Developing an experimental paradigm using augmented reality to project 3D terrains
-  
+
 ### Masters Research -- Rensselaer Polytechnic Institute
 * **Perception and Action Lab** -- *August 2011 to December 2014*
 
   Conducted research to investigate how humans learn to exploit kinematic redundancy in the upper arm. Motor redundancy is a critical for flexibility and adaptability in human motor control. I implemented the experimental paradigm within the Vizard virtual environment.
-  
+
   * Designed and implemented a novel experimental research project
   * Oversaw experimentation and data collection
   * Developed custom Matlab and R pipelines for data analysis
-  
+
 ### Undergraduate Honors Research -- Arizona State University
 * **Orchinik Lab** -- *August 2008 to May 2011*
 
   Worked independently, and as part of a team, conducting research on the neurochemical pathways of the acute stress response in rat and frog animal models. Investigations focused specifically on *organic cation transporter 3* (OCT-3) and its action as a secondary serotonin uptake mechanism in the brain.
-  
+
   * Animal care and handling with Sprague-Dawley rat model
   * Surgical and chemical preparation of animal subjects for neural tissue analysis
   * Analysis of neural tissue using immunofluorescence
@@ -64,11 +65,11 @@ title: Cirriculum Vitae
 * **R** -- *RStudio, RMarkdown, RShiny*
 
   Highly experienced at using R for statistical analysis and programming. Routinely use R, RMarkdown, and RNotebooks for analysis and research presentation. I am skilled at using GGPLOT2 for creating publication-worthy figures and tables. I am also experienced with using Shiny in R for development of web applications and statistical presentations in HTML5.
-  
+
 * **LaTex** -- *Document typesetting, Overleaf.com*
 
   Highly experienced with LaTex. I use LaTex routinely for manuscript writing, either working directly in LaTex or using an interim word processor (like Scrivener) and compiling to LaTex for final document preparation.
-  
+
 * **C++** -- *Basic programming*
 
   Familiar with functional programming in C++. Utilized C++ for experiment design and simple virtual environment presentation. Work with C++ routinely as a network bridge between Vicon and Vizard.
@@ -77,7 +78,7 @@ title: Cirriculum Vitae
 * **MatLab** -- *Programming, Simulink*
 
   I am experienced with Matlab programming. I developed custom pipelines for post-processing motion capture data and experiment data in Matlab, and use this pipeline to prepare data for analysis in R. I am experienced at generating figures with Matlab, and I am familiar with SimuLink.
-  
+
 * **Vicon** -- *Nexus 1.8*
 
   Experienced with passive motion capture for the purposes of research and analysis, including data collection and post-processing for analysis in MatLab and R. Routinely calibrate and maintain motion capture hardware.
@@ -95,9 +96,9 @@ title: Cirriculum Vitae
 ## Teaching Experience
 ### Research Methods and Statistics II -- Rensselaer Polytechnic Institute
 * **Graduate Teaching Assistant** -- *January to May 2017*
-  
+
   Helped to build a curriculum for a new course at Rensselaer Polytechnic Institute designed to teach students studying Psychology and Cognitive Science advanced topics in research methods and parametric statistics. This course was also designed to teach students to use R and RMarkdown to create documents that effectively communicate and defend research experiments.
-  
+
   * Curriculum development
   * Assignment Creation in RMarkdown
   * Lecturing
@@ -105,17 +106,17 @@ title: Cirriculum Vitae
 
 ### Perception and Action -- Rensselaer Polytechnic Institute
 * **Graduate Teaching Assistant** -- *January to May 2014*
-  
+
   Perception and Action is an advanced level course on the study of human perceptual and motor systems. I worked with students through office hours to help them develop a conceptual understanding of the advanced topics in this course, and assisted Dr. Brett Fajen with grading and lesson planning.
-  
+
   * Grading
   * Personal guidance through office hours
-  
+
 ### Sensation and Perception -- Rensselaer Polytechnic Institute
 * **Graduate Teaching Assistant** -- *August to December 2011, August to December 2012, August to December 2016*
-  
+
   Perception and Action is an advanced level course on the study of human perceptual and motor systems. I worked with students through office hours to help them develop a conceptual understanding of the advanced topics in this course, and assisted Dr. Brett Fajen with grading and lesson planning.
-  
+
   * Grading
   * Personal guidance through office hours
   * Taught the use of Python for experimentation
@@ -159,9 +160,6 @@ title: Cirriculum Vitae
 * **Matthis, Jonathan, Sean Barton, and Brett Fajen.** *“The Critical Period for the Visual Control of Foot Placement in Complex Terrain Occurs in the Preceding Step.”* Journal of Vision 14, no. 10 (August 3, 2014): 3–3. doi:10.1167/14.10.3.
 
 * **Matthis, Jonathan, Sean Barton, and Brett Fajen.** *“Visual Control of Precise Foot Placement When Walking over Complex Terrain.”* Journal of Vision 13, no. 9 (July 2, 2013): 121–121. doi:10.1167/13.9.121.
-
-
-<a name="myfootnote1" style="font-size: 0.75em;">1</a><a style="font-size: 0.75em;">: Complete PDF version available upon request</a>
 
 
 

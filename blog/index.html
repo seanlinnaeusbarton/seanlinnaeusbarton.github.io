@@ -15,8 +15,8 @@ title: A Pretty Average Stats Blog
 {% for post in site.posts %}
 <div class="post_container" style="width:80%; height:250px; background:#fff; display:table; box-shadow: 2px 2px 10px; margin-left:auto; margin-right:auto;">
     <div class="post_fig" style="display:table-cell; width:250px; height:auto; vertical-align:middle;" >
-        <a href="{{ post.url }}">
-            <img src="{{post.front_fig}}" style="width:100%;" />
+        <a id="post_ref" href="{{ post.url }}">
+            <img id="post_img" src="{{post.front_fig}}" style="min-width:100%;" />
         </a>
     </div>
     <div class="post_summary" style=" display:table-cell; background:#dddddd; vertical-align:middle; padding:0px 10px 0px 10px;">
