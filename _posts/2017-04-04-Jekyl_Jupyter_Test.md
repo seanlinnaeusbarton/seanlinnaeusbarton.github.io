@@ -10,7 +10,7 @@ output:
     variant: github_markdown
 ---
 
-# This is a Jekyll-Jupyter test
+## This is a Jekyll-Jupyter test
 Here I will betesting the functionality of using Jupyter to create a Jekyll blog post
 
 

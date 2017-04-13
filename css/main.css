@@ -97,7 +97,7 @@ p {
   padding: 4px 0px 4px 30px;
   font-size:1.3em;
   text-decoration:none;
-  border-bottom: 1px solid var(--cream);;
+  border-bottom: 1px solid #cccccc;;
 }
 
 .main_page .aside .left_sidebar .button:hover{
