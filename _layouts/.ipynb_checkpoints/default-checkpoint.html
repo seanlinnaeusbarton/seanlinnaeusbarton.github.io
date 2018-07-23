@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<div class="header">
+  <h1 style="color:#dddddd; padding-left:40px; font-size: 3.0em;margin-bottom:-20px;">{{ site.author }}</h1>
+  <h2 style="border-bottom: 0px; padding-left:40px;">{{ site.sitename }}</h2>
+</div>
+
+<div class="main_page">
+  <div class="aside">
+
+    <div class="left_sidebar">
+
+      <div class="dark_bar">
+        <h2 style="border-bottom:0px; color:#dddddd;">Menu</h2>
+      </div>
+
+      <img src="/figures/CentralPark.jpg" style="min-width:100%;"/>
+
+      <a class="button" href="/">Home</a>
+      <a class="button" href="/about">About</a>
+      <a class="button" href="/cv">CV</a>
+      <a class="button" href="/blog">Blog</a>
+      <a class="button" href="/repos">Repositories</a>
+
+    </div>
+
+    <div class="footer">
+
+      <ul>
+        <li><i class="fa fa-envelope"></i> <a href="mailto:seanlinnaeusbarton@gmail.com">Email</a></li>
+        <li><i class="fa fa-github"></i> <a href="https://github.com/seanlinnaeusbarton">Github</a></li>
+      </ul>
+
+    </div>
+  </div>
+
+  <div class="article">
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
+
+</div>
+
+<div id="preload">
+   <img src="/figures/CentralPark.jpg" style="width:100%;"/>
+</div>
+
+</html>
