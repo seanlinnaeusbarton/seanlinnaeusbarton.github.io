@@ -1,0 +1,217 @@
+:root{
+  --dark-grey:#444444;
+  --grey-grey:#7f7f7f;
+  --light-grey:#dddddd;
+  --slate-blue:#647889;
+  --sand:#d8d8d0;
+  --cream:#f7f7e8;
+  --brick-red:#bc5340;
+}
+
+div#preload { display: none; }
+
+body {
+  margin:0;
+  padding:0;
+  border:0;     /* This removes the border around the viewport in old versions of IE */
+  width:100%;
+  min-width:600px;      /* Minimum width of layout - remove line if not required */
+          /* The min-width property does not work in old versions of Internet Explorer */
+  font-size:90%;
+  background:#fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+  font-weight: 700;
+  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+  letter-spacing: -1px;
+  color:var(--dark-grey);
+}
+
+h1 {
+  border-bottom: 5px solid #647889;
+}
+
+h2 {
+  border-bottom: 1px solid #dddddd;
+}
+
+p {
+  padding: 10px 0px 10px 0px;
+}
+
+/* --- HEADER STYLES ---*/
+.header {
+  clear:both;
+  float:left;
+  width:calc(100vw);
+  background:var(--slate-blue);
+  height:125px;
+}
+
+/* --- PAGE STYLES ---*/
+.main_page {
+  position:relative;  /* This fixes the IE7 overflow hidden bug */
+  clear:both;
+  float:left;
+  width:calc(100vw);     /* width of whole page */
+  background:#ffb656;
+  height:calc(100vh - 225px);
+  min-height:500px;
+}
+
+.main_page .aside{
+  height:calc(100vh - 225px);
+  float:left;
+  width:25%;
+  min-height:500px;
+}
+
+/* --- SIDEBAR STYLES ---*/
+.main_page .aside .left_sidebar{
+  background:var(--sand);
+  float:left;
+  width:100%;
+  height:calc(100vh - 175px);
+  min-height:500px;
+}
+
+.main_page .aside .left_sidebar .dark_bar {
+  background:var(--dark-grey);
+  float:left;
+  clear:both;
+  width:100%;
+  color:var(--light-grey);
+  padding: 10px 0px 10px 10px;
+}
+
+.main_page .aside .left_sidebar .dark_bar h4 {
+  color:var(--light-grey);
+}
+
+.main_page  .aside .left_sidebar .button{
+  float:left;
+  clear:both;
+  width:100%;
+  padding: 4px 0px 4px 30px;
+  font-size:1.3em;
+  text-decoration:none;
+  border-bottom: 1px solid #cccccc;;
+}
+
+.main_page .aside .left_sidebar .button:hover{
+  background-color:var(--brick-red);
+}
+
+/* --- FOOTER STYLES ---*/
+.main_page .aside .footer{
+  background:var(--sand);
+  float:bottom;
+  clear:both;
+  width:100%;
+  height:50px;
+}
+
+.main_page .aside .footer ul{
+  list-style:none;
+}
+
+.main_page .aside .footer ul li{
+  display:inline;
+  text-decoration:none;
+}
+
+.main_page .aside .footer ul li a{
+  text-decoration:none;
+  padding:0 0 0 0px;
+}
+
+/* --- ARTICLE STYLES ---*/
+.main_page .article{
+  background:#fff;
+  float:right;
+  width:75%;
+  height:calc(100vh - 150px);
+  min-height:500px;
+}
+
+/* --- CONTENT STYLES ---*/
+.main_page .article .content{
+  background:var(--cream);
+  float:left;
+  clear:both;
+  width:97%;
+  margin-left:1.5%;
+  margin-right:1.5%;
+  margin-top:10px;
+  margin-bottom:10px;
+  height:calc(100vh - 150px);
+  overflow:scroll;
+  box-shadow: 2px 2px 10px;
+  padding: 0px 10px 0px 10px;
+  text-align:justify;
+
+}
+
+.main_page .article .content p{
+  font-size:1em;
+}
+
+img {
+  max-width:75%;
+  height:auto;
+}
+
+/* --- GITHUB2 STYLING --*/
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  width:50%;}
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+  width:50%;}
+/*
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  */
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+  width:75%;}
+
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+

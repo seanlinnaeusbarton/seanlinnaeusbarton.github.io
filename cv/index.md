@@ -5,7 +5,7 @@ title: Cirriculum Vitae
 ---
 <h1 style="border-bottom: 5px solid #647889;">{{ page.title }}</h1>
 
-<div class="pdf_view" style="top:50%;left:50%;">
+<div class="content" style="margin-left:auto;margin-right:auto;">
     <embed src="https://seanlinnaeusbarton.github.io/cv/WebsiteCV.pdf" type="application/pdf" style="width:50%;height:100%;"/>
 </div>
 
