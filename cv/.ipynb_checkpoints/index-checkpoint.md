@@ -8,7 +8,7 @@ title: Cirriculum Vitae
 
 </body>
 <script type="text/javascript">
-    document.location = "seanlinnaeusbarton.github.io/cv/WebsiteCV.pdf"
+    document.location = "https://seanlinnaeusbarton.github.io/cv/WebsiteCV.pdf"
 </script>
 </html>
 
