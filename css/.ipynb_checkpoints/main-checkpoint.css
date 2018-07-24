@@ -134,7 +134,7 @@ p {
   background:#fff;
   float:right;
   width:75%;
-  height:calc(100vh - 125px);
+  height:calc(100vh - 115px);
   min-height:500px;
 }
 
@@ -148,7 +148,7 @@ p {
   margin-right:1.5%;
   margin-top:10px;
   margin-bottom:10px;
-  height:calc(100vh - 125px);
+  height:calc(100vh - 115px);
   overflow:scroll;
   box-shadow: 2px 2px 10px;
   padding: 0px 10px 0px 10px;
