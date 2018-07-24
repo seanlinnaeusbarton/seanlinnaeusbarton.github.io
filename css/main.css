@@ -57,7 +57,7 @@ p {
   float:left;
   width:calc(100vw);     /* width of whole page */
   background:#ffb656;
-  height:calc(100vh - 50px);
+  height:calc(100vh - 100px);
   min-height:500px;
 }
 
