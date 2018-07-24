@@ -73,7 +73,7 @@ p {
   background:var(--sand);
   float:left;
   width:100%;
-  height:calc(100vh - 155px);
+  height:calc(100vh - 160px);
   min-height:500px;
 }
 
