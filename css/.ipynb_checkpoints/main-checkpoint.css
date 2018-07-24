@@ -62,7 +62,7 @@ p {
 }
 
 .main_page .aside{
-  height:calc(100vh - 500px);
+  height:calc(100vh - 125px);
   float:left;
   width:25%;
   min-height:500px;
