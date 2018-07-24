@@ -57,12 +57,12 @@ p {
   float:left;
   width:calc(100vw);     /* width of whole page */
   background:#ffb656;
-  height:calc(100vh - 250px);
+  height:calc(100vh - 210px);
   min-height:500px;
 }
 
 .main_page .aside{
-  height:calc(100vh - 250px);
+  height:calc(100vh - 210px);
   float:left;
   width:25%;
   min-height:500px;
@@ -110,7 +110,7 @@ p {
   float:bottom;
   clear:both;
   width:100%;
-  height:30px;
+  height:20px;
 }
 
 .main_page .aside .footer ul{
