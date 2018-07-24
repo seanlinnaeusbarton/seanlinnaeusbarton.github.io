@@ -57,7 +57,7 @@ p {
   float:left;
   width:calc(100vw);     /* width of whole page */
   background:#ffb656;
-  height:calc(100vh - 210px);
+  height:calc(100vh - 250px);
   min-height:500px;
 }
 
@@ -133,7 +133,7 @@ p {
   background:#fff;
   float:right;
   width:75%;
-  height:calc(100vh - 250px);
+  height:calc(100vh - 200px);
   min-height:500px;
 }
 
