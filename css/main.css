@@ -140,7 +140,7 @@ p {
 
 /* --- CONTENT STYLES ---*/
 .main_page .article .content{
-  background:var(--cream);
+  background:var(--sand);
   float:left;
   clear:both;
   width:97%;
