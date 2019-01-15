@@ -4,9 +4,9 @@ pagename: Home | Barton
 title: Home
 ---
 
-<h1 style="border-bottom: 5px solid #d8d8d0;">{{ page.title }}</h1>
+<h1 style="border-bottom: 5px solid #647889;">{{ page.title }}</h1>
 
-{% include image.html src="/figures/home/profile_picture_1.jpg" description="Personal Photo" style="width: 300px; float:left; clear:both; padding: 0px 0px 0px 0px; border: 10px solid #f7f7e8;;" %}
+{% include image.html src="/figures/home/profile_picture_1.jpg" description="Personal Photo" style="width: 300px; float:left; clear:both; padding: 0px 0px 0px 0px; border: 10px solid #d8d8d0;" %}
 
 ## Who I Am
 I am a researcher in Cognitive Science, Artificial Intelligence, and Human Behavior. I study how human and human-like cognition emerges from the dynamics of complex systems in real and computational environments. I obtained my PhD and my Master's Degree in Cognitive Science under the supervision of Dr. Brett Fajen, and I currently work as a Postdoctoral Research Fellow at the United States Army Research Labs. I am deeply interested in how cognitive behavior can emerge from simple computational and informational mechanisms that depend on the rich information available in the environment. I am also passionate about statistics and data analysis, and I believe in making data and research openly available and understandable. We live in an age where the most relevant issues facing us are complex and nuanced. I believe that researchers and scientists have an obligation not only to understand these issues, but also to present findings in a way that is meaningful and understandable to everyone.
