@@ -4,7 +4,7 @@ pagename: Home | Barton
 title: Home
 ---
 
-<h1 style="border-bottom: 5px solid #647889;">{{ page.title }}</h1>
+<h1 style="border-bottom: 5px solid #d8d8d0;">{{ page.title }}</h1>
 
 {% include image.html src="/figures/home/profile_picture_1.jpg" description="Personal Photo" style="width: 300px; float:left; clear:both; padding: 0px 0px 0px 0px; border: 10px solid #f7f7e8;;" %}
 
